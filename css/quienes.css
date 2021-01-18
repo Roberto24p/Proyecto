@@ -1,0 +1,87 @@
+.main-conocenos{
+    padding-top: 100px;
+}
+
+.main-conocenos article{
+    background-color: #e3e8fd;
+    display: block;
+}
+
+.elementoArticle{
+    display: inline-block;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.article-btt{
+    margin-left:200px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 40px;
+    margin-bottom: 10px;
+    
+}
+
+#hover1:hover{
+    margin-bottom: -1px;
+
+    border-bottom : black 1px solid;
+    
+    
+}
+
+.eventoClick{
+    margin-bottom: -1px;
+
+    border-bottom : black 1px solid;
+}
+
+#terminosUso{
+    display: none;
+}
+#hover2:hover{
+    margin-bottom: -1px;
+    border-bottom: black 1px solid;
+    
+}
+
+.section-quienes{
+    margin-left: 3%;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parallax{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 40px;
+}
+
+.parallax-img{
+    background-image: url("imagenes/cineParallax.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 360px;  
+    background-position-y:-50px;
+}
+
+.quienp{
+    background-image: url('imagenes/cineP.jpg');
+}
+
+.footer-quienes{
+    margin-top: 5px;
+    display: flex;
+    
+    height: 200px;
+    background-color: #b2e9e9;
+}
+
+
+

@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.cinta-Titulo{
+    display: flex;
+    background-color: rgb(73, 131, 189);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.nav-cinta{
+
+    
+    margin-top: 10px;
+    font-size: 20px;
+
+    margin-left: 15%;
+}
+
+.nav-cinta ul{
+    display: flex;
+    margin-top: 25px;
+}
+.nav-cinta a{
+    padding-right: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+
+
+}
+
+.nav-cinta li:hover{
+    transform: scale(1.06);
+    transition: transform .5s
+}
+
+.main{
+    margin-top: 20px;
+    padding-left: 70px;
+}
+.series-peliculas{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.imgElemento{
+    
+    width: 300px;
+    height: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+}
+.elemento{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-top: 35px;
+
+}
+h4{
+    margin-left: 15%;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.elemento p{
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 35px;
+}
+
+.elemento:hover{
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+    transition: transform .5s;
+    border: black 0.5px solid;
+    border-radius:10px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+footer{
+    margin-top: 1510px;
+    display: flex;
+    
+    height: 200px;
+    background-color: #d6ecec;
+}
+
+
+.footer-section{
+    height: 100%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icono-red-social{
+    width: 40px;
+    height: 40px;
+    padding-top: 30px;
+}
+
+/*
+.nav-cinta li {
+ 
+}*/
+

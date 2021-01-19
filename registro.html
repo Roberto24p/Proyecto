@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forumulario.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="cinta-Titulo" id="nav">
+            <h1>VisionFamily</h1>
+            <nav class="nav-cinta">
+                <ul>
+                    <li> <a href="index.html"> INICIO</a></li>
+                    <li><a href="#"> AGENCIAS</a></li>
+                    <li><a href="#"> TARIFAS</a></li>
+                    <li><a href="#"> CONTACTOS</a></li>
+                    <li><a href="conocenos.html">¿QUIENES SOMOS?</a></li>
+                    <li><a href="registro.html">REGISTRATE</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="nombreUsuario" class="nombreUsuario">
+           <h5 id="nombreVariable">Roberto</h5>
+        </div>
+    </header>
+    <form class="frm"  onsubmit=false>
+        <label class="label">Nombre </label>
+        <input type="text" id='inputNombre'required>
+        <label class="label">Apellido </label>
+        <input type="text" id="inputApellido" required>
+        <label class="label">Correo Electrónico </label>
+        <input type="email" id="inputCorreo"required>
+        <label class="label">Contraseña</label>
+        <input type="password" id="inputContrase" required>
+        <input type="submit" value="Registrar" id="bttRegistrar">
+    </form>
+
+    <footer class="footerRegistro">
+        <section class="footer-section">
+            <p class="">
+                <a href="https://www.facebook.com">
+                    <img src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746_960_720.png" alt=""
+                        class="icono-red-social">
+                </a>
+                <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/600px-Instagram-Icon.png"
+                        alt="" class="icono-red-social">
+                </a>
+            </p>
+            <p class="datos">
+                Teléfono: 095544890 <br>
+                Horario: 14:30 - 18:00 <br>
+                Dirección: Guayaquil etc <br>
+                Todos los derechos reservados
+            </p>
+        </section>
+    </footer>
+    <script type="text/javascript" src="js/frm.js"></script>
+
+</body>
+
+</html>

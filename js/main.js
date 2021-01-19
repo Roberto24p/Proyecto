@@ -21,3 +21,5 @@ hover1.addEventListener('click', function(){
     hover2.classList.remove("eventoClick") ;
 
 })
+
+

@@ -1,0 +1,57 @@
+.frm{
+    padding-top: 150px;
+    display:flex;
+    max-width: 300px;
+    flex-direction: column;
+    margin-left: 36%;
+}
+
+label{
+    width:400px;
+	font-weight:bold;
+    display:inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+input{
+	width:400px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+    display:inline-block;
+    font-size: 25px;
+}
+
+input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(180, 175, 175);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+    background-color:rgb(112, 92, 92);
+    margin-left: 60px;
+} 
+
+.footerRegistro{
+    margin-top: 5px;
+}
+
+.nombreUsuario{
+    margin-top: 95px;
+    position: fixed;
+    background-color: rgb(173, 156, 156);
+    display: none;
+    margin-left: 70px;
+    font-size: 30px;
+    width: 400px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+.nombreUsuario h5{
+    padding: 10px;
+}

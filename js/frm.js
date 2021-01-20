@@ -9,7 +9,7 @@ bttRegistrar.addEventListener('click', function(){
     let input =  document.getElementById("inputNombre");
     if(inputApellido.value != "" && input.value != ""&&inputCorreo.value != "" && inputContraseni.value != ""){
         cintaUsuario.style.display = "inline-block";
-        nombreVariable.innerHTML = "<h5>"+input.value +"</h5>"
+        nombreVariable.innerHTML = "<h5>Registrado: "+input.value +"</h5>"
         inputApellido.value = "";
         input.value = "";
         inputCorreo.value = "";

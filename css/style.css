@@ -8,8 +8,11 @@
 h1{
     margin-left: 100px;
     margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
 }
-
+h1:hover{
+    cursor: pointer;
+}
 .cinta-Titulo{
     display: flex;
     background-color: rgb(73, 131, 189);
@@ -33,7 +36,7 @@ h1{
 }
 .nav-cinta a{
     padding-right: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family:  sans-serif;
     font-size: 15px;
     color: white;
 
@@ -103,7 +106,7 @@ h4{
 footer{
     margin-top: 1510px;
     display: flex;
-    
+    font-family: 'PT Sans', sans-serif;
     height: 200px;
     background-color: #d6ecec;
 }

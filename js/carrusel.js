@@ -19,7 +19,7 @@ function setNext_Prev(next, prev) {
     atras = prev;
 }
 
-window.onload = setInterval(function(){ transicionD()}, 8000);
+window.onload = setInterval(function(){ transicionD()}, 5000);
 
 function transicionI() {
     next = adelante, prev = atras;
